@@ -15,7 +15,7 @@ describe('Verify Login Functionality', function() {
 
     it('Verify Login with invalid credentials', function() {
       cy.login(parameters.loginPage.wusername, parameters.loginPage.wpassword);
-      loginPage.elements.lblLoginValidation().should('contain', parameters.loginPage.validationMessage);
+      loginPage.elements.lblLoginValidation().should('contain', parameters.loginPage.wrongunmsg);
   });
 
     it('Verify Login with valid credentials', function() {
