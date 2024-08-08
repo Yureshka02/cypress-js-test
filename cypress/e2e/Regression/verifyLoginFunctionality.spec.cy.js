@@ -28,8 +28,9 @@ describe('Verify Login Functionality', function() {
 
     // logout
     it('Verify Logout', function() {
-        cy.login(parameters.loginPage.username, parameters.loginPage.password);
-        homePage.logoutSuccess();
+      homePage.logoutSuccess();
+      cy.url().should('contain', '/login')
+      homePage.elements.lblTitle().should('contain', parameters.loginPage.logoutmsg);
     });
 
    
