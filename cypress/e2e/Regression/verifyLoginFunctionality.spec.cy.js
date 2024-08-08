@@ -26,6 +26,12 @@ describe('Verify Login Functionality', function() {
         homePage.elements.lblTitle().should('contain', parameters.homePage.title);
     });
 
+    // logout
+    it('Verify Logout', function() {
+        cy.login(parameters.loginPage.username, parameters.loginPage.password);
+        homePage.logoutSuccess();
+    });
+
    
 
 });
