@@ -10,6 +10,7 @@
   },
 
   "homePage": {
+    "homepageurl" : "https://practice.expandtesting.com/secure",
     "title": "You logged into a secure area!"
   }
 }
