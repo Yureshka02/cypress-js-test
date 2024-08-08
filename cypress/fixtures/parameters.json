@@ -1,0 +1,10 @@
+{
+  "loginPage": {
+    "username": "practice",
+    "password": "SuperSecretPassword!"
+  },
+
+  "homePage": {
+    "title": "You logged into a secure area!"
+  }
+}
