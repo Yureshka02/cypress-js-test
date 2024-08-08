@@ -1,7 +1,12 @@
 {
   "loginPage": {
     "username": "practice",
-    "password": "SuperSecretPassword!"
+    "password": "SuperSecretPassword!",
+    "wusername" : "wrongun",
+    "wpassword" : "wrongpw",
+    "wrongunmsg" : "Your username is invalid!",
+    "wrongpwmsg" : "Your password is invalid!"
+
   },
 
   "homePage": {
